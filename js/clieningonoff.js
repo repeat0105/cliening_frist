@@ -1,8 +1,8 @@
 let searchActive1 = document.querySelector('header > div:nth-of-type(2) input');
 let headerDiv1 = searchActive1.parentElement;
-searchActive1.onclick = function () {
-        headerDiv1.classList.toggle('search-active');
-}
+// searchActive1.onclick = function () {
+//         headerDiv1.classList.toggle('search-active');
+// }
 
 let loginSidePage = document.querySelector('.loginSidePage');
 let loginIcon = document.querySelector('header > div:nth-of-type(2) svg');
